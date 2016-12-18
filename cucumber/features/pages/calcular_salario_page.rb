@@ -7,7 +7,6 @@ module Calculadora
             element :salario_bruto, 'input[class$=salarioBruto]'
             element :botao_calcular, '.btnCalcular'
             element :box_resultado, '.sliderConteudoDestaque'
-
             elements :tabela_resultado, '.resultado tbody tr'
         end
     end
