@@ -10,7 +10,7 @@ Funcionalidade: Calcular Salario Liquido
         Dado que acesso a página Salário
 
     Esquema do Cenario: Calcular salario liquido
-        Dado que eu tenho meu salário bruto é <salario_bruto>
+        Dado que meu salário bruto é <salario_bruto>
         Quando eu faço o calculo do meu salário
         Entao vejo o meu salário liquido no valor de <salario_liquido>
         E o imposto de IR no valor de <imposto>
