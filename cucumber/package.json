@@ -1,0 +1,27 @@
+{
+    "name": "@fernandosqa/cucumber",
+    "description": "Cucumber based on Ruby (Bundler, Cucumber, Capybara, Siteprism, RSpec)",
+    "version": "0.0.1",
+    "main": "index.js",
+    "scripts": {
+        "test": "false"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fernandosqa/cucumber.git"
+    },
+    "keywords": [
+        "cucumber",
+        "bundler",
+        "ruby",
+        "capybara",
+        "siteprism",
+        "rspec"
+    ],
+    "author": "Fernando Papini",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/fernandosqa/cucumber/issues"
+    },
+    "homepage": "https://github.com/fernandosqa/cucumber#readme"
+}
