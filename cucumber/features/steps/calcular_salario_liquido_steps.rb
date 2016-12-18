@@ -5,7 +5,7 @@ Dado(/^que acesso a página Salário$/) do
   @salario_page.load
 end
 
-Dado(/^que eu tenho meu salário bruto é "([^"]*)"$/) do |salario|
+Dado(/^que meu salário bruto é "([^"]*)"$/) do |salario|
   @salario_bruto = salario
 end
 
