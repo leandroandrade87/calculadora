@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 Dado(/^Usuario acessa a pagina login$/) do
- visit 'http://tressm.cit:8101'
+ visit 'http://trem.cit:8101/administracao'
 end
 
 Quando(/^Preenche dados login$/) do
