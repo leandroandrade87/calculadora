@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-Dado(/^Usuario acessa a pagina {string}$/) do
+Dado(/^Usuario acessa a pagina "([^"]*)"$/) do
   @login_page = Login::Pages::LoginPage.new
   @login_page.load
 end
