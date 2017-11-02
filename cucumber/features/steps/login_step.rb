@@ -1,8 +1,7 @@
 # encoding: utf-8
 
 Dado(/^Usuario acessa a pagina login$/) do
-  @login_page = Login::Pages::LoginPage.new
-  @login_page.load
+ visit 'http://trem.cit:8101'
 end
 
 Quando(/^Preenche dados login$/) do

@@ -3,10 +3,10 @@
 
 Dir[File.join(File.dirname(__FILE__), '../pages/*.rb')].each { |file| require file }
 
-module Calculadora
+module Login
   module Pages
     def salario
-      Calculadora::Pages::SalarioPage.new
+      Login::Pages::LoginPage.new
     end
   end
 end

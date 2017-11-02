@@ -13,8 +13,6 @@ module Login
                 txtSenha.set(password)
                 btLogin.click
             end
-        
-        
         end
     end
 end
