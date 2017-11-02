@@ -17,11 +17,11 @@ module Helper
       file_path = "reports/screenshots/test_#{result}/run_#{timer_path}"
       logger.info("file_path: " + file_path)
       screenshot = "#{file_path}/#{file_name}.png".without_accents
-      logger.info("screenshot: " + screenshot)
-      screenshot = screenshot.sub! ',', ''
-      logger.info("screenshot,: " + screenshot)
-      screenshot = screenshot.sub! '#', ''
-      logger.info("screenshot#: " + screenshot)
+      #logger.info("screenshot: " + screenshot)
+      #screenshot = screenshot.sub! ',', ''
+      #logger.info("screenshot,: " + screenshot)
+      #screenshot = screenshot.sub! '#', ''
+      #logger.info("screenshot#: " + screenshot)
       page.save_screenshot(screenshot)
       embed(screenshot, 'image/png', 'SCREENSHOT')
     end
