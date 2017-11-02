@@ -19,7 +19,9 @@ module Helper
       screenshot = "#{file_path}/#{file_name}.png".without_accents
       logger.info("screenshot: " + screenshot)
       screenshot = screenshot.sub! ',', ''
+      logger.info("screenshot,: " + screenshot)
       screenshot = screenshot.sub! '#', ''
+      logger.info("screenshot#: " + screenshot)
       page.save_screenshot(screenshot)
       embed(screenshot, 'image/png', 'SCREENSHOT')
     end
