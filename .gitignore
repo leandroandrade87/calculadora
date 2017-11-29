@@ -12,3 +12,4 @@ reports/*
 screenshots/
 features_report.html
 features_report.json
+*.lock
